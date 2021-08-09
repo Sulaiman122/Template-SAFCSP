@@ -1,20 +1,26 @@
+import projects from '../projects';
 
-const Projects = ({ number, image, done }) => {
+const Projects = () => {
 
     return (
-        <div className="box">
-            <img src={image} alt="Documentation image" width="600" height="400" />
-
-            {!done ?
-                <>
-                    <div className="soon">
-                        <p>قريبا</p>
+                projects.map((item, key) => (
+                    <div className="box">
+                        <img
+                            src={(item.photo).default}
+                            alt="Project image"
+                            width="600" height="400"
+                        />
+                        {!item.done ?
+                            <>
+                                <div className="soon">
+                                    <p>قريبا</p>
+                                </div>
+                                <div className="desc" style={{ opacity: 0.5 }}>{item.title}</div>
+                            </>
+                            : <div className="desc">{item.title}</div>
+                        }
                     </div>
-                    <div className="desc" style={{opacity: 0.5}}>مشروع {number}</div>
-                </>
-                : <div className="desc">مشروع {number}</div>
-            }
-        </div>
+                ))
     )
 }
 

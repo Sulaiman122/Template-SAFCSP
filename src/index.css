@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -22,6 +23,8 @@ body {
 }
 
 .front img {
+  width:  10.1vw;
+
   padding-top: 15%;
   transform: scale(1.2);
 }
@@ -30,7 +33,7 @@ body {
   font-family: Tajawal-ExtraLight;
   letter-spacing: 1.28px;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 1.352vw;
   margin-top: 4px;
 }
 
@@ -38,7 +41,7 @@ body {
   padding-top: 7%;
   margin-bottom: 0;
   font-family: Tajawal;
-  font-size: 64px;
+  font-size: 3.37vw;
   letter-spacing: 1.28px;
 }
 
@@ -67,7 +70,7 @@ div.box img {
   left: 0;
   right: 0;
   top: 20%;
-  font-size: 65px;
+  font-size: 3.37vw;
   font-family: Tajawal;
   text-align: center;
   letter-spacing: 0px;
@@ -79,7 +82,7 @@ div.box img {
   border-radius: 0 0 10px 10px;
   padding: 40px;
   text-align: center;
-  font-size: 16px;
+  font-size: 0.83vw;
 }
 
 .section {
@@ -87,7 +90,7 @@ div.box img {
   text-align: right;
   color: #D8F9FF;
   letter-spacing: 0.8px;
-  font-size: 32px;
+  font-size: 1.66vw;
   font-family: Tajawal-Medium;
   width: 80%;
   margin: auto;
@@ -109,6 +112,7 @@ footer {
   font-weight: 600;
   line-height: 8px;
 }
+
 
 @font-face {
   font-family: 'Tajawal';

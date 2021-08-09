@@ -10,29 +10,23 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <>
+      { console.log(window.innerWidth)}
       <div className="container">
 
         <Header />
 
         <div className="section">
           <p>الـتوثـيق</p>
-          <Doc number='١' image={Book_1} />
-          <Doc number='٢' image={Book_2} />
-          <Doc number='٣' image={Book_2} />
+          <Doc />
         </div>
 
         <div className="section">
           <p>مشاريعنا</p>
-          <Projects number='١' image={Book_1} done={true} />
-          <Projects number='٢' image={Book_2} done={true} />
-          <Projects number='٣' image={Book_2} done={true} />
-          <Projects number='٤' image={Book_3} done={false} />
-          <Projects number='٥' image={Book_3} done={false} />
+          <Projects />
         </div>
 
       </div>
       <Footer />
-
     </>
   );
 }
