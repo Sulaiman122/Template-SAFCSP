@@ -56,6 +56,7 @@ div.box {
 div.box:hover {
   border: 1px solid #777;
   border-radius: 10px;
+  outline: 1px solid transparent;
 }
 
 div.box img {
@@ -69,7 +70,7 @@ div.box img {
   position: absolute;
   left: 0;
   right: 0;
-  top: 20%;
+  top: 19%;
   font-size: 3.37vw;
   font-family: Tajawal;
   text-align: center;
@@ -108,12 +109,15 @@ footer {
   background-color: #031C3B;
   color: white;
   bottom: 0px;
-  font-family: Tajawal-ExtraLight;
-  font-weight: 600;
+  font-family: Tajawal-Light;
   line-height: 8px;
 }
 
 
+@font-face {
+  font-family: 'Tajawal-Light';
+  src: local('Tajawal-Light'), url(./fonts/Tajawal-Light.ttf) format('truetype');
+}
 @font-face {
   font-family: 'Tajawal';
   src: local('Tajawal'), url(./fonts/Tajawal.ttf) format('truetype');

@@ -1,5 +1,4 @@
-import imagesPool from '../imagePool';
-import docs from '../docs';
+import docs from '../listDocs';
 
 const Doc = () => {
 
@@ -7,7 +6,7 @@ const Doc = () => {
 
         <>
             {
-                docs.map((item, key) => (
+                docs.map((item) => (
                     <div className="box">
                         <img
                             src={(item.photo).default}

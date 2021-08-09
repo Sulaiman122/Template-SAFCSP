@@ -2,7 +2,6 @@
 
 const docs = [
     {
-        // tried to use "imagePool file" links instead ,, but it doesnt work
         photo: require('./img/book1.png'),
         title: "التوثيق ١"
     },

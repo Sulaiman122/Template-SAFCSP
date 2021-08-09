@@ -1,9 +1,9 @@
-import projects from '../projects';
+import projects from '../listProjects';
 
 const Projects = () => {
 
     return (
-                projects.map((item, key) => (
+                projects.map((item) => (
                     <div className="box">
                         <img
                             src={(item.photo).default}
