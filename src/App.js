@@ -1,25 +1,25 @@
 import Header from './components/Header';
-import Doc from './components/Doc';
 import React, { Component } from 'react';
-import Projects from './components/Projects';
+import ListDocs from './components/Doc/listDocs';
+import ListProjects from './components/Project/listProjects';
 import Footer from './components/Footer';
+
 
 const App = () => {
   return (
     <>
-      { console.log(window.innerWidth)}
       <div className="container">
 
         <Header />
 
         <div className="section">
           <p>الـتوثـيق</p>
-          <Doc />
+          <ListDocs />
         </div>
 
         <div className="section">
           <p>مشاريعنا</p>
-          <Projects />
+          <ListProjects />
         </div>
 
       </div>
