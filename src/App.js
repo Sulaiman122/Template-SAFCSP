@@ -1,6 +1,3 @@
-import Book_1 from './img/book1.png';
-import Book_2 from './img/book2.png';
-import Book_3 from './img/book3.png';
 import Header from './components/Header';
 import Doc from './components/Doc';
 import React, { Component } from 'react';
