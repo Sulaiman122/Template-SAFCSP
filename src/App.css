@@ -1,0 +1,124 @@
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .front {
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    color: white;
+  }
+  
+  .front img {
+    width: 10.1vw;
+    padding-top: 15%;
+    transform: scale(1.2);
+  }
+  
+  .front p {
+    font-family: Tajawal-ExtraLight;
+    letter-spacing: 1.28px;
+    font-weight: 700;
+    font-size: 1.352vw;
+    margin-top: 4px;
+  }
+  
+  .front h1 {
+    padding-top: 7%;
+    margin-bottom: 0;
+    font-family: Tajawal;
+    font-size: 3.37vw;
+    letter-spacing: 1.28px;
+  }
+  
+  div.box {
+    position: relative;
+    float: right;
+    margin: 10px 10px 50px 10px;
+    width: 30%;
+    border: 1px solid transparent;
+  }
+  
+  div.box:hover {
+    border: 1px solid #777;
+    border-radius: 10px;
+    outline: 1px solid transparent;
+  }
+  
+  .responsive {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -1rem;
+  }
+  
+  
+  .soon {
+    color: #D8F9FF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 19%;
+    font-size: 3.37vw;
+    font-family: Tajawal;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  
+  .desc {
+    border: 1px solid #1A626F;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    padding: 40px;
+    text-align: center;
+    font-size: 0.83vw;
+  }
+  
+  .section {
+    display: inline-block;
+    text-align: right;
+    color: #D8F9FF;
+    letter-spacing: 0.8px;
+    font-size: 1.66vw;
+    font-family: Tajawal-Medium;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 7%;
+  }
+  
+  .section p {
+    margin: 45px 12px 16px 0;
+    font-family: Tajawal-Medium;
+  }
+  
+  footer {
+    width: 100%;
+    padding: 22px 0px;
+    background-color: #031C3B;
+    color: white;
+    bottom: 0px;
+    font-family: Tajawal-Light;
+    line-height: 8px;
+  }
+  
+  @font-face {
+    font-family: 'Tajawal-Light';
+    src: local('Tajawal-Light'), url(./fonts/Tajawal-Light.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Tajawal';
+    src: local('Tajawal'), url(./fonts/Tajawal.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Tajawal-ExtraLight';
+    src: local('Tajawal-ExtraLight'), url(./fonts/Tajawal-ExtraLight.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Tajawal-Medium';
+    src: local('Tajawal-Medium'), url(./fonts/Tajawal-Medium.ttf) format('truetype');
+  }

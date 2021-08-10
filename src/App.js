@@ -1,8 +1,12 @@
-import Header from './components/Header';
-import React, { Component } from 'react';
-import ListDocs from './components/Doc/listDocs';
-import ListProjects from './components/Project/listProjects';
-import Footer from './components/Footer';
+import Header from './components/header';
+import React from 'react';
+import { docs, projects } from './api'
+import ListDocs from './components/documents/listDocs';
+import ListProjects from './components/projects/listProjects';
+import Footer from './components/footer';
+import styles from './App.css';
+
+
 
 
 const App = () => {
@@ -12,15 +16,9 @@ const App = () => {
 
         <Header />
 
-        <div className="section">
-          <p>الـتوثـيق</p>
-          <ListDocs />
-        </div>
+        <ListDocs docs={docs} />
 
-        <div className="section">
-          <p>مشاريعنا</p>
-          <ListProjects />
-        </div>
+        <ListProjects projects={projects} />
 
       </div>
       <Footer />
