@@ -1,5 +1,5 @@
 
-export const docs =
+export const Docs =
     [
         {
             photo: require('./img/book1.png'),
@@ -16,7 +16,7 @@ export const docs =
     ]
 
 
-export const projects =
+export const Projects =
     [
         {
             photo: require('./img/book1.png'),

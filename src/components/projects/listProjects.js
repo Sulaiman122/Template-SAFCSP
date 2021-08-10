@@ -1,13 +1,13 @@
-import Projects from './project'
+import Project from './project'
 
 
-const listProjects = ({ projects }) => {
+const listProjects = ({ Projects }) => {
     return (
         <div className="section">
             <p>مشاريعنا</p>
             {
-                projects.map(({ title, photo, isDone }, key) => (
-                    <Projects title={title} photo={photo} isDone={isDone} key={`${title}-${key}`} />
+                Projects.map(({ title, photo, isDone }, index) => (
+                    <Project title={title} photo={photo} isDone={isDone} key={`Project-${index}`} />
                 ))
             }
         </div>

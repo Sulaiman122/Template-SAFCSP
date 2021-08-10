@@ -1,16 +1,16 @@
 import Doc from './doc'
 
-const listDocs = ({ docs }) => {
+const ListDocs = ({ Docs }) => {
     return (
         <div className="section">
             <p>الـتوثـيق</p>
             {
-                docs.map(({ title, photo }, key) => (
-                    <Doc title={title} photo={photo} key={`${title}-${key}`} />
+                Docs.map(({ title, photo }, index) => (
+                    <Doc title={title} photo={photo} key={`Document-${index}`} />
                 ))
             }
         </div>
     )
 }
 
-export default listDocs;
+export default ListDocs;

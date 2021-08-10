@@ -1,8 +1,8 @@
 import Header from './components/header';
 import React from 'react';
-import { docs, projects } from './api'
-import ListDocs from './components/documents/listDocs';
-import ListProjects from './components/projects/listProjects';
+import { Docs, Projects } from './api'
+import ListDocs from './components/documents/ListDocs';
+import ListProjects from './components/projects/ListProjects';
 import Footer from './components/footer';
 import './App.css';
 
@@ -16,9 +16,9 @@ const App = () => {
 
         <Header />
 
-        <ListDocs docs={docs} />
+        <ListDocs Docs={Docs} />
 
-        <ListProjects projects={projects} />
+        <ListProjects Projects={Projects} />
 
       </div>
       <Footer />

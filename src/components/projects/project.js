@@ -1,5 +1,5 @@
 
-const Projects = ({ title, photo, isDone }) => {
+const Project = ({ title, photo, isDone }) => {
     return (
         <div className="box">
             <img
@@ -21,4 +21,4 @@ const Projects = ({ title, photo, isDone }) => {
     )
 }
 
-export default Projects
+export default Project
