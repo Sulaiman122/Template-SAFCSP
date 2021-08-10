@@ -5,7 +5,7 @@ const Doc = ({ title, photo }) => {
         <div className="box">
             <img
                 src={photo.default}
-                alt="Documentation image"
+                alt="Documentation"
                 className="responsive"
                 width="600" height="400"
             />

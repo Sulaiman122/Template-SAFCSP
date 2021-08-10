@@ -4,7 +4,7 @@ const Projects = ({ title, photo, isDone }) => {
         <div className="box">
             <img
                 src={photo.default}
-                alt="Project image"
+                alt="Project"
                 className="responsive"
                 width="600" height="400"
             />

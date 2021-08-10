@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header>
             <div className="front">
-                <img src={logo} alt="Logo image" />
+                <img src={logo} alt="Logo" />
                 <h1>التوثـيق الموحد</h1>
                 <p>لمشاريع إدارة التطوير والبرمجيات</p>
             </div>

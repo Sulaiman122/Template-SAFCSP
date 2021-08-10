@@ -4,7 +4,7 @@ import { docs, projects } from './api'
 import ListDocs from './components/documents/listDocs';
 import ListProjects from './components/projects/listProjects';
 import Footer from './components/footer';
-import styles from './App.css';
+import './App.css';
 
 
 
