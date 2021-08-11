@@ -1,9 +1,9 @@
-import Header from './components/header';
+import Header from './components/Header';
 import React from 'react';
-import { Docs, Projects } from './api'
+import { docs, projects } from './api'
 import ListDocs from './components/documents/ListDocs';
 import ListProjects from './components/projects/ListProjects';
-import Footer from './components/footer';
+import Footer from './components/Footer';
 import './App.css';
 
 
@@ -13,13 +13,9 @@ const App = () => {
   return (
     <>
       <div className="container">
-
         <Header />
-
-        <ListDocs Docs={Docs} />
-
-        <ListProjects Projects={Projects} />
-
+        <ListDocs Docs={docs} />
+        <ListProjects Projects={projects} />
       </div>
       <Footer />
     </>
